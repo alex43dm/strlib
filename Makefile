@@ -16,5 +16,8 @@ test: test.o main.o
 	g++ -lgtest -pthread -o test test.o main.o
 	./test
 
+docker:
+	docker build - < Dockerfile
+
 clean:
 	rm -rf *.o strlib.so test
