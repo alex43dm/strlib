@@ -1,0 +1,33 @@
+Words
+input string: "aaa bbb acccc"
+delimiter: 1 space
+1. count of words
+DO NOT DO - string.split(" ").size();
+3
+1 - output : number of any words - int
+1.1 Optional : output - array of structures with word/number of occurrences
+//
+2. the longest word
+"acccc"
+3. the word with longest repeatable sequence
+acacacac - 1
+accc- 3
+4. reverse words
+acccc bbb aaaa
+//
+class or some classes with some API
+5. Optional but important - unit tests
+For example, something like
+#define CHECK_EQUAL(a, b)
+6. Multithread support with tests.
+class SomeApi {
+  some_type get_words();
+};
+int main() {
+  get_words();
+}
+int main() {
+  createThread();
+  createThread();
+}
+

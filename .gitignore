@@ -1,0 +1,5 @@
+*.swp
+*.orig
+test
+*.o
+*.so
